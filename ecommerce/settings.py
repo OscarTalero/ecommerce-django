@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-v#1omyk4)pl9om86m6(0w8tqksx_(&zsl(8$ttuec0qsld5(i(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://ecommerce-env.eba-ny3jidhf.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carsh',
+    'orders'
 
 ]
 
